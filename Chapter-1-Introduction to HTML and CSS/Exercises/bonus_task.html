@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Makes the web-page visually appealing on all devices.-->
+    <title>HTML & CSS Quick-Reference Guide</title> <!--The title of the web-page.-->
+    <link rel="stylesheet" href="bonus_task.css"> <!--Links an external CSS file.-->
+</head>
+<body> <!--Contains all the content that is visible to the user.-->
+    <header> <!--Container for the heading.-->
+        <h1>HTML & CSS Quick-Reference Guide</h1> <!--The main heading of the web-page.-->
+    </header>
+    <section> <!--Defines a section in the web-page.-->
+        <h2>HTML Tags</h2>  <!--Sub-heading for the HTML tags.-->
+        <ul> <!--Opening tag for the unordered list.-->
+            <!-- <li></li> defines a list item.-->
+            <!-- <pre></pre> tags define the pre-formatted text.-->
+            <li> 
+                <code>&lt;html&gt;</code>: The root element of an HTML document.
+                <pre><code>&lt;html&gt;&lt;/html&gt;</code></pre> 
+            </li>
+            <li>
+                <code>&lt;head&gt;</code>: Contains meta-information about the document.
+                <pre><code>&lt;head&gt;&lt;/head&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;title&gt;</code>: Defines the title of the document.
+                <pre><code>&lt;title&gt;Document Title&lt;/title&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;link&gt;</code>: Defines the relationship between the current document and an external resource.
+                <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;body&gt;</code>: Contains the content of the document.
+                <pre><code>&lt;body&gt;&lt;/body&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;h1&gt;</code>: Defines a heading.
+                <pre><code>&lt;h1&gt;Heading&lt;/h1&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;h2&gt;</code>: Defines a subheading.
+                <pre><code>&lt;h2&gt;Subheading&lt;/h2&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;ul&gt;</code>: Defines an unordered list.
+                <pre><code>&lt;ul&gt;&lt;li&gt;List item&lt;/li&gt;&lt;/ul&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;li&gt;</code>: Defines a list item.
+                <pre><code>&lt;li&gt;List item&lt;/li&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;ol&gt;</code>: Defines an ordered list.
+                <pre><code>&lt;ol&gt;&lt;li&gt;List item&lt;/li&gt;&lt;/ol&gt;</code></pre>
+            </li>
+
+            <li>
+                <code>&lt;hr&gt;</code>: Defines a thematic break in an HTML page (e.g., a shift of topic).
+                <pre><code>&lt;hr&gt;</code></pre>
+            </li>
+            
+            
+            <li>
+                <code>&lt;div&gt;</code>: element is used as a container for other HTML elements, is often used to group sections of a web page together.
+                <pre><code>&lt;div&gt;
+    &lt;p&gt;Some text&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;p&gt;</code>: Defines a paragraph.
+                <pre><code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;img&gt;</code>: Inserts an image.
+                <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;a&gt;</code>: Creates a hyperlink.
+                <pre><code>&lt;a href="https://example.com"&gt;Link&lt;/a&gt;</code></pre>
+            </li>
+            
+            <li>
+                <code>&lt;input&gt;</code>: Defines an input control.
+                <pre><code>&lt;input type=&quot;text&quot;&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;label&gt;</code>: Defines a label for an &lt;input&gt; element.
+                <pre><code>&lt;label for=&quot;fname&quot;&gt;First name:&lt;/label&gt;&lt;br&gt;&lt;input type=&quot;text&quot; id=&quot;fname&quot; name=&quot;fname&quot;&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;select&gt;</code>: Defines a drop-down list.
+                <pre><code>&lt;select&gt;&lt;option value=&quot;volvo&quot;&gt;Volvo&lt;/option&gt;&lt;/select&gt;</code></pre>
+            </li>
+            
+            <li>
+                <code>&lt;table&gt;</code>: Defines a table.
+                <pre><code>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Cell&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></pre>
+            </li>
+            <li>
+                <code>&lt;th&gt;</code>: Defines a header cell in a table.
+                <pre><code>&lt;th&gt;Header&lt;/th&gt;</code></pre>
+            </li>
+        </section>
+        
+        <section>
+            
+        <h2>CSS Properties</h2> <!--Sub-heading for the CSS Properties.-->
+            
+        <ul> <!--Defines an unordered list.-->
+            <!-- <li></li> defines a list item.-->
+            <!-- <pre></pre> tags define the pre-formatted text.-->
+                
+        <li>
+            <code>font-family</code>: Specifies the font for text.
+            <pre><code>body { font-family: Arial, sans-serif; }</code></pre>
+        </li>
+                
+        <li>
+            <code>font-weight</code>: Specifies the weight or thickness of the font.
+            <pre><code>p { font-weight: bold; }</code></pre>
+        </li>
+        <li>
+            <code>font-style</code>: Specifies the style of the font. Common values are normal and italic.
+            <pre><code>p { font-style: italic; }</code></pre>
+        </li>
+        <li>
+            <code>background</code>: Sets all the background properties in one declaration.
+            <pre><code>body { background: #ffffff url('img_tree.png') right top; }</code></pre>
+        </li>
+        <li>
+            <code>background-size</code>: Specifies the size of the background images.
+            <pre><code>body { background-size: 100px 80px; }</code></pre>
+        </li>
+        <li>
+            <code>animation</code>: A property for setting all the animation properties in one declaration.
+            <pre><code>div { animation: mymove 5s infinite; }</code></pre>
+        </li>
+        <li>
+            <code>background-position</code>: Sets the starting position of a background image.
+            <pre><code>body { background-position: right top; }</code></pre>
+        </li>
+        <li>
+            <code>text-align</code>: Specifies the horizontal alignment of text.
+            <pre><code>p { text-align: center; }</code></pre>
+        </li>
+        <li>
+            <code>color</code>: Sets the color of text.
+            <pre><code>p { color: red; }</code></pre>
+        </li>
+        <li>
+            <code>padding-top</code>: Sets the top padding (space) of an element.
+            <pre><code>div { padding-top: 50px; }</code></pre>
+        </li>
+        <li>
+            <code>max-width</code>: Sets the maximum width of an element.
+            <pre><code>div { max-width: 500px; }</code></pre>
+        </li>
+        <li>
+            <code>margin</code>: Sets all the margin properties in one declaration.
+            <pre><code>div { margin: 10px 20px 30px 40px; }</code></pre>
+        </li>
+        <li>
+            <code>padding</code>: Sets all the padding properties in one declaration.
+            <pre><code>div { padding: 10px 20px 30px 40px; }</code></pre>
+        </li>
+        <li>
+            <code>background-color</code>: Sets the background color of an element.
+            <pre><code>body { background-color: lightblue; }</code></pre>
+        </li>
+        <li>
+            <code>border</code>: Sets all the border properties in one declaration.
+            <pre><code>p { border: 1px solid red; }</code></pre>
+        </li>
+        <li>
+            <code>border-radius</code>: Defines the radius of the border of the element.
+            <pre><code>div { border-radius: 25px; }</code></pre>
+        </li>
+        <li>
+            <code>box-shadow</code>: Attaches one or more shadows to an element.
+            <pre><code>div { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }</code></pre>
+        </li>
+        <li>
+            <code>margin-bottom</code>: Sets the bottom margin of an element.
+            <pre><code>p { margin-bottom: 25px; }</code></pre>
+        </li>
+
+    </ul>
+    </section>
+    
+    
+</body>
+</html>
