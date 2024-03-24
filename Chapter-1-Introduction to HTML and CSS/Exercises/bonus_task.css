@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(128,128,128);
+    padding: 20px;
+}
+
+header {
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: rgb(211,211,211);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+pre {
+    background-color: white;
+    padding: 10px;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center; /* Centers the text */
+    color: white; /* Changes the text color */
+}
+
+p {
+    font-size: 16px; /* Changes the font size */
+    line-height: 1.5; /* Changes the line height */
+}
+
+ul {
+    list-style-type: none; /* Removes the default list style */
+    padding-left: 0; /* Removes the default padding */
+}
+
+li {
+    background-color: white; /* Changes the background color */
+    margin-bottom: 10px; /* Adds some space below each list item */
+    padding: 10px; /* Adds some padding */
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace; /* Changes the font */
+    color: #006400; /* Changes the text color */
+}
+
+pre {
+    overflow-x: auto; /* Adds horizontal scrolling if the content is too wide */
+}
+
+footer {
+    position: fixed; /* Positions the footer at the bottom of the page */
+    bottom: 0; /* Positions the footer at the bottom of the page */
+    width: 100%; /* Makes the footer full width */
+}
+
