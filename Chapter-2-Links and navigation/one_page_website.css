@@ -1,0 +1,61 @@
+body { /* Styles applied to the entire body of the webpage */
+    font-family: Arial, sans-serif; /* Sets the font of the text */
+    margin: 0;  /* Removes the margin around the body */
+    padding: 0;  /* Removes the padding inside the body */
+    background-color: #f5f5dc; /*sets the background color*/
+    
+}
+
+.navbar { /* Styles applied to any element with class "navbar" */
+    background-color: #333; /*Sets the background color*/
+    color: white; /*sets the text color*/
+    padding: 10px 0; /* Sets the padding around the navbar */
+    text-align: center; /*Centers the text in the navbar*/
+}
+
+.navbar a { /* Styles applied to any anchor tag within an element with class "navbar" */
+    color: white; /*Sets the text color*/
+    margin: 0 10px; /* Sets the margin around the anchor tag */
+    text-decoration: none; /* Removes the underline from the anchor tag */
+}
+
+.external-link { /* Styles applied to any element with class "external-link" */
+    background-color: #008CBA; /* Sets the background color of the element */
+    color: white; /* Sets the text color of the element */
+    padding: 10px 20px; /* Sets the text color of the element */
+    text-align: center; /* Centers the text in the element */
+    text-decoration: none; /* Removes the underline from the text in the element */
+    display: inline-block; /* Allows the element to sit inline with other elements */
+    font-size: 16px; /* Sets the font size of the text in the element */
+    margin: 4px 2px; /* Sets the margin around the element */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the element */
+}
+
+h1 { /* Styles applied to any h1 heading tag */
+    text-align: center;
+    color: #333;
+}
+h2 {
+    color: #333
+}
+
+p {
+    color: #666;
+}
+
+#reviews ul { /* Styles applied to any unordered list within an element with id "reviews" */
+    list-style-type: none;
+    padding: 0;
+}
+
+#reviews li { /* Styles applied to any list item within an element with id "reviews" */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+#reviews h3 { /* Styles applied to any h3 heading within an element with id "reviews" */
+    margin-top: 0;
+}
