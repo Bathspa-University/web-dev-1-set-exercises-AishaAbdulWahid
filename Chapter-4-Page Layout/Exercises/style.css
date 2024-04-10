@@ -1,0 +1,83 @@
+body {
+    margin:0; /*Removes the default margin from the body.*/
+    padding:0; /*Removes the default padding from the body.*/
+ }
+ 
+ nav ul {
+    list-style-type:none; /*Removes the default list style.*/
+    padding: 20px; /*adds a padding of the unordered list in the nav bar of 20 pixels.*/
+ }
+ 
+ nav ul li {
+    display:inline; /*Makes the list items display inline.*/
+    margin-right:10px; /*Adds a right margin of 10px to each list item.*/
+    padding: 0 15px; /*Adds padding of 15px to the left and right of each list item.*/
+ }
+ 
+ nav ul li a {
+    text-decoration:none; /*Removes the default text decoration, for ex: underline from the links.*/
+    color: white;
+    font-size: 1.5em; /*Sets the font size to 1.5em*/
+ }
+
+ .center-text {
+    text-align: center; /*Center aligns the text.*/
+ }
+ 
+ header h1 {
+    font-size: 3.0em; /*Sets the font size of the h1 in the header to 3.0em.*/
+    text-decoration: underline; /*Underlines the h1 text.*/
+    padding: 10px; /* Adds padding of 10px to the h1 in the header */
+ }
+
+
+ footer {
+    position: fixed; 
+    left: 0; /*Aligns the footer to the left.*/
+    bottom: 0; /*Positions the footer at the bottom.*/
+    width: 100%; /*Sets the width of the footer to 100 percent.*/
+    text-align: center; /*Center aligns the text.*/
+    padding: 15px;
+    font-size: 20px; /*Sets the font size in the footer to 20px.*/
+ }
+ .Welcome {
+    display: flex; /*Applies flex display to the Welcome class.*/
+    justify-content: center; /*Centers the content horizontally in the Welcome class.*/
+    flex: 70; /*Sets the flex factor to 70.*/
+    height: 600px; /*Sets the height of the Welcome class to 600px.*/
+    padding-left: 40px; /*Adds left padding of 40px to the Welcome class.*/
+ }
+ .line-up {
+    flex: 30; /*Sets the flex factor to 30.*/
+    height: 600px; /*Sets the height of the line-up class to 600px.*/
+ }
+ .line-up ul li {
+    padding: 10px 0; /*Adds top and bottom padding of 10px to the list items in the line-up class.*/
+}
+ 
+ .Welcome p {
+    font-size: 20px; /*Sets the font size of the paragraph in the Welcome class to 20px.*/
+    text-align: left; /*Aligns the text to the left in the paragraph of the Welcome class.*/
+    padding-left: 20px; /*Adds left padding of 20px to the paragraph in the Welcome class.*/
+ }
+ .Welcome h2 {
+    font-size: 30px; /*Sets the font size of h2 in the Welcome class to 30px.*/
+    text-decoration: underline; /*Underlines the h1 text.*/
+    text-indent: 20px; /*Indents the first line of the h2 text in the Welcome class by 20px.*/
+ }
+ 
+ .line-up ul {
+    font-size: 20px; /*Sets the font size of the unordered list in the line-up class to 20px*/
+ }
+ .line-up h2 {
+    font-size: 30px; /*Sets the font size of h2 in the line-up class to 30px.*/
+    text-decoration: underline; /*Underlines the h2 text in the line-up class.*/
+    text-indent: 20px; /*Indents the first line of the h2 text in the line-up class by 20px.*/
+ }
+
+ .line-up-image {
+    width: 200px; /*Sets the width of the image in the line-up-image class to 200px.*/
+    height: 200px; /*Sets the height of the image in the line-up-image class to 200px.*/
+    padding-left: 20px; /*Adds left padding of 20px to the image in the line-up-image class.*/
+ }
+ 
