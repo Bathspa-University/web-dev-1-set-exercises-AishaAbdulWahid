@@ -1,0 +1,47 @@
+/*Styles set for all the div elements.*/
+div{
+    display: inline-block;
+    font-family: sans-serif; /*The font of the text is set as sans-serif font.*/
+    font-size: 20px; /*The size of the font is set to 20 pixels.*/
+    margin: 25px; /*The space around the element is set to 25 pixels.*/
+    border: 4px solid black; /*The border around the element is set as solid, 4 pixels wide, and black color.*/
+    line-height: 100px;
+    text-align: center; /*The text within the element is centered.*/
+    width: 200px; /*The width of the element is set to 200 pixels.*/
+    height: 200px; /*The height of the element is set to 200 pixels.*/
+    
+}
+/*Styles set for the body element.*/
+body {
+    margin: 100px auto; /*The space around the body is set to 100 pixels on the top and the bottom.*/
+    width: max-content; /*The width of the body is set to a maximum needed by the content. */
+}
+/*Styles set specific to the div element with class "divA"*/
+.divA {
+    border: 4px solid rgb(160, 21, 211); /*The border is solid, 4 pixels wide, and a purple color.*/
+    box-shadow: 10px 10px 5px -2px red; /*There is a red shadow that offsets to the right side and bottom side set to 10 pixels,
+                                            has a blur radius of 5 pixels, and a spread radius set to -2 pixels.*/
+}
+
+/*Styles set specific to the div element with class "divB"*/
+.divB {
+    border: 4px solid rgb(18, 255, 18); /*The border is solid, 4 pixels wide, and an rgb of (18, 255, 18).*/
+    box-shadow: inset 10px 10px 9px -2px black; /*There is an inner black shadow that offsets to the right side and bottom side
+                                                     set to 10 pixels, has a blur radius set to 9 pixels, and a spread radius 
+                                                     set to -2 pixels.*/
+}
+
+/*Styles set specific to the div element with class "divC"*/
+.divC { 
+    border: 4px solid rgba(228, 151, 9, 0.959);
+    box-shadow: 0 0 0 10px blue, 0 0 0 20px red, 0 0 0 30px green;
+    border-radius: 19px; /* The corners of the border are rounded with a radius of 10 pixels */
+}
+
+/*Styles set specific to the div element with class "divD"*/
+.divD {
+    border: 4px solid rgb(134, 9, 9);
+    text-shadow: 4px 4px 1px; /* The text has a shadow that's offsets to the right and down set to 4 pixels, 
+                                 and has a blur radius of 1 pixel */
+}
+
