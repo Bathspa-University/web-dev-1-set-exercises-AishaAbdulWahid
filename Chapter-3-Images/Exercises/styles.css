@@ -1,0 +1,22 @@
+body {
+    background-color: #89CFF0; /*Sets the background color of the body to baby blue.*/
+}
+
+.gallery {
+    display: flex; /*Applies flex display to the gallery, aligning items in a row.*/
+    flex-wrap: wrap;
+    justify-content: center; /*Centers the items along the horizontal line.*/
+}
+
+.image {
+    width: 100%; /*Sets the width of the image to 100% of its container.*/
+    max-width: 300px; /*Limits the maximum width of the image to 300px.*/
+    margin-bottom: 20px; /*Adds a bottom margin to the image set to 20 pixels. */
+    border-radius: 8px; /*Rounds the corners of the image set to 8 pixels.*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*Adds a shadow to the image.*/
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.1); /*Scales up the image by 10% when hovered over.*/
+}
