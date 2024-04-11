@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif; /*Sets the font style to Arial, sans-serif.*/
+    background-color: rgb(222,184,135); /*Sets the background color to rgb(222,184,135).*/
+    margin: 0; /*Removes the default margin from the body.*/
+    padding: 0; /*Removes the default padding from the body.*/
+}
+
+h1 {
+    text-align: center; /*sets the text to be centered.*/
+}
+
+.container {
+    width: 50%; /*Sets the width of the container to be 50%.*/
+    margin: 50px auto; /*Centers the container horizontally with a top margin of 50px.*/
+    background-color: #fff; /*Sets the color of the container to #fff.*/
+    padding: 20px; /*Adds 20 pixels of padding inside the container.*/
+    border-radius: 5px; /*Rounds the edges of the container to 5 pixels.*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*Adds a box shadow effect to the container.*/
+}
+
+
+
+#colorDisplay {
+    width: 200px; /*Sets the width of the element with id "colorDisplay" to 200 pixels.*/
+    height: 200px; /*Sets the height of the element with id "colorDisplay" to 200 pixels.*/
+    margin: 20px auto;
+    border-radius: 5px; /*Rounds the edges of the container to 5 pixels.*/
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /*Adds a bottom margin of 20px to the element with id 'options'.*/
+}
+
+
+.option {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px; /*Rounds the edges of the container to 5 pixels.*/
+}
+
+#message {
+    text-align: center; /*Centers the text inside the element with id 'message' */
+    margin-bottom: 20px; /* Adds a bottom margin of 20px to the element with id 'mesage' */
+}
+
+#lives {
+    font-weight: bold;
+    color: red;
+}
+
+#resetButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px; /*Rounds the edges of the container to 3 pixels.*/
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#resetButton:hover {
+    background-color: #0056b3;
+}
+
+
