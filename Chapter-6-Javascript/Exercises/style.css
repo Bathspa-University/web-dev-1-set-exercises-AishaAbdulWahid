@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font family of the body */
+    background-color: rgb(222,184,135); /* Sets the background color of the body */
+    margin: 0; /* Removes the default margin from the body */
+    padding: 0; /* Removes the default padding from the body */
+    display: flex; /* Applies flex display to the body */
+    justify-content: center; /* Centers the body's content horizontally */
+    align-items: center; /* Centers the body's content vertically */
+    height: 100vh; /* Sets the height of the body to 100% of the viewport height */
+}
+
+button {
+    padding: 10px 20px; /* Adds padding to the button */
+    background-color: #007bff; /* Sets the background color of the button */
+    color: #fff; /* Sets the text color of the button */
+    border: none; /* Removes the border from the button */
+    border-radius: 3px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    transition: background-color 0.3s; /* Adds a transition effect to the button's background color */
+}
+
+button:hover {
+    background-color:#0056b3; /* Changes the button's background color when hovered over */
+}
+
+.calculator {
+    background-color: #fff; /* Sets the background color of the calculator */
+    padding: 20px; /* Adds padding to the calculator */
+    border-radius: 5px; /* Rounds the corners of the calculator */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow to the calculator */
+}
+
+.input-group {
+    margin-bottom: 10px; /* Adds a bottom margin to the input group */
+}
+
+.input-group label {
+    display: block; /* Makes the label display as a block element */
+    margin-bottom: 5px; /* Adds a bottom margin to the label */
+}
+
+.input-group input:focus {
+    border-color: #007bff; /* Changes the input's border color when focused */
+}
+
+.input-group input {
+    width: 100%; /* Sets the input's width to 100% */
+    padding: 8px; /* Adds padding to the input */
+    border-radius: 3px; /* Rounds the corners of the input */
+    border: 1px solid #ccc; /* Sets the input's border color and width */
+    transition: border-color 0.3s; /* Adds a transition effect to the input's border color */
+}
