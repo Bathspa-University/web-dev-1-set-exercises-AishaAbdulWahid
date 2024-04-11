@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Embedded Video</title> <!--Defines the title of the web-page.-->
+<link rel="stylesheet" href="embeded_video.css"> <!--links an external CSS file to the HTML document.-->
+
+</head>
+<body> <!--Contains all the content that is visible to the user.-->
+    <!-- This line is used to embed video content in an HTML document. The autoplay attribute starts the video automatically, 
+        loop attribute allows the video to start over again when finished, 
+        poster attribute specifies an image to be shown while the video is downloading, or until the user hits the play button, 
+        and controls attribute adds video controls, like play, pause, and volume -->
+    <video autoplay loop poster="https://images.pexels.com/photos/282045/pexels-photo-282045.jpeg?auto=compress&cs=tinysrgb&w=600" controls>
+        <source src="https://cdn.pixabay.com/video/2023/12/10/192687-893427276_large.mp4" type="video/mp4">
+        Your browser does not support the video tag. <!--This line will be displayed if the video is not supported by the browser-->
+    </video>
+</body>
+</html>
